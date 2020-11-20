@@ -67,7 +67,7 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 400px;
 	padding: 2%;
     margin: 100px auto;
 	text-align: left;
@@ -84,9 +84,9 @@ h1 {
     font-family: lust-display-didone, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 45px;
+    font-size: 25px;
     margin: 0px auto 10px auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: #d0896a;
 }
 
@@ -95,20 +95,20 @@ h2 {
     font-weight: 400;
     font-style: normal;
     line-height: 1.4;
-    font-size: 25px;
+    font-size: 12px;
     color: black;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 15px auto;
 }
 
     
 nav{
     font-family: lust-display-didone, serif;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
     border-width: 800px;
     text-align: center;
-    margin-top: 2em;    
+    margin-top: 15px;    
     } 
 
 nav li{
