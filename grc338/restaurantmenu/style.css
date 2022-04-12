@@ -10,9 +10,9 @@ body {
 }
 
 h1 {
-	background-color: rgb(255,255,250);
+	background-color: rgb(155, 153, 168);
 	color: rgb(255,255,250); /* Same as body background. */
-	font-size: 3em;
+	font-size: 2em;
 	padding: 1rem .5rem .5rem; /* You want three values. */
 	font-weight: 700;
 	text-transform: uppercase;
@@ -29,7 +29,7 @@ h1 span {
 h2 {
 	background-color: rgb(155, 153, 168);
 	color: rgb(255,255,250);
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 1rem .5rem .5rem;
 	font-family: serif;
 	font-weight: 400;
