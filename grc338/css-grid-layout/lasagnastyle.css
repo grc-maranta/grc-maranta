@@ -1,0 +1,111 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%;
+}
+
+body{
+    background-color: rgb(221,221,221);
+}
+
+div.container{
+    max-width: 70em;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+}
+
+figure{
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% auto;
+
+}
+
+.ingredients, .directions{
+    margin: 2.5rem 2rem 3rem 2rem;
+    border-top: .5mm solid rgb(237,141,52)
+}
+
+
+h1 {
+	background-color: rgb(237,141,52);
+	color: rgb(255, 255, 255); 
+	font-size: 2em;
+	padding: 3.5rem 2rem .5rem;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+}
+
+
+h2 {
+	background-color: rgb(237,141,52);
+	color: rgb(248,218,184);
+	font-size: 1.5em;
+	padding: .5rem 2rem 2rem;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+
+}
+
+figcaption {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0); 
+	font-size: 1em;
+	padding: 1rem 2rem 2.5rem;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+}
+
+h3 {
+	background-color: rgb(255, 255, 255); 
+	color: rgb(237,141,52);
+	font-size: 1.2em;
+	padding: 1.5rem 2rem 0rem 0rem;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+ul {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    margin: .5rem 2rem 2rem 0rem;
+    color: rgb(0, 0, 0); 
+}
+
+ol {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    margin: .5rem 2rem 2rem 0rem;
+    color: rgb(0, 0, 0); 
+}
+
+li {
+    display: list-item;
+    line-height: 1.5rem;
+    padding: .5rem 0rem .5rem;
+}
+
+
+footer {
+	background-color: rgb(237,141,52);
+	color: rgb(255, 255, 255);
+	font-size: 1em;
+	padding: 1rem 2rem 1rem;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
