@@ -226,7 +226,6 @@ ul.newsletter li input {
   }
 
 
-
   main.gallery {
     position: relative;
     overflow: hidden;
@@ -279,6 +278,8 @@ input:nth-of-type(8):checked ~ figure.gallery:nth-of-type(8)
 {
     opacity: 1;
 }
+
+
 
 
 
