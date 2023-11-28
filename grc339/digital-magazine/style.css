@@ -280,6 +280,42 @@ input:nth-of-type(8):checked ~ figure.gallery:nth-of-type(8)
 }
 
 
+@media screen and (prefers-color-scheme: dark) {
+
+    body{
+        background-color: rgb(32 33 36);
+        color: rgb(249 246 238);
+        }
+
+    h1 {
+        background-image: url("sundaysurf-logo-alt.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    h1 img {
+        opacity: 0;
+    }
+
+    a {
+        color: rgb(249 246 238);
+    }
+
+    nav ul li a {
+        color: rgb(249 246 238); 
+    }
+
+    h3{
+
+        color: rgb(234 82 111); 
+    }
+
+    section.tertiary {
+        border-color:rgb(249 246 238);
+    }
+}
+
+
 
 
 
